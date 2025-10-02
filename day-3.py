@@ -65,6 +65,7 @@ if __name__ == "__main__":
 
     cq.dequeue()
     cq.dequeue()
+    cq.dequeue()
     cq.display()
 
     cq.enqueue(60)
