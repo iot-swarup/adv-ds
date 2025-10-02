@@ -1,7 +1,9 @@
-import array
+import array as A
 
 # Global array
-arr = array.array('i', [])   # integer array
+arr = A.array('i', [])   # integer array
+
+print(type(arr))
 
 # Function to insert element
 def insert_element():
